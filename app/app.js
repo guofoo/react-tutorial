@@ -50,11 +50,11 @@ var CommentBox = React.createClass({
   },
   
   componentDidMount: function() {
-    $.ajax({
-      url: '', // url to send request to
+    $.ajax({ // url to send request to
+      url: '', 
       dataType: 'json',
-      success: function(data) {
-        /* the data is the post object in _comments.json */
+      success: function(data) { // the data is the post object in _comments.json
+        
       }.bind(this),
       error: function(xhr, status, err) {
         console.log('Can not fetch _comments.json');
