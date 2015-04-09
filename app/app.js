@@ -81,10 +81,17 @@ var CommentBox = React.createClass({
       // `setState` accepts a callback. To avoid (improbable) race condition,
       //  we'll send the ajax request right after we optimistically set the new state.
       //  finish the ajax call here to save comment to server
-
-
-
-
+      $.ajax({ // url to send request to
+        url: '', 
+        dataType: 'json',
+        type: 'POST',
+        success: function(data) { // the data is the post object in _comments.json
+          
+        }.bind(this),
+        error: function(xhr, status, err) {
+          console.log('Can not fetch _comments.json');
+        }.bind(this)
+      });
     });
   },
   
