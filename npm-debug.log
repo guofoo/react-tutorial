@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   '/root/live4code/server/node_modules/express/' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose install where,what [ '/usr/lib',
+5 verbose install   [ '/root/live4code/server/node_modules/express/' ] ]
+6 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+7 warn package.json keymirror@0.1.0 No repository field.
+8 verbose cache add [ '/root/live4code/server/node_modules/express/', null ]
+9 verbose cache add name=undefined spec="/root/live4code/server/node_modules/express/" args=["/root/live4code/server/node_modules/express/",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '/root/live4code/server/node_modules/express/',
+10 verbose parsed url   path: '/root/live4code/server/node_modules/express/',
+10 verbose parsed url   href: '/root/live4code/server/node_modules/express/' }
+11 silly lockFile 25164689-code-server-node-modules-express /root/live4code/server/node_modules/express/
+12 verbose lock /root/live4code/server/node_modules/express/ /root/.npm/25164689-code-server-node-modules-express.lock
+13 silly lockFile 25164689-code-server-node-modules-express /root/live4code/server/node_modules/express/
+14 silly lockFile 25164689-code-server-node-modules-express /root/live4code/server/node_modules/express/
+15 error addLocal Could not install /root/live4code/server/node_modules/express/
+16 error Error: ENOENT, stat '/root/live4code/server/node_modules/express/'
+17 error If you need help, you may report this *entire* log,
+17 error including the npm and node versions, at:
+17 error     <http://github.com/npm/npm/issues>
+18 error System Linux 3.13.0-36-generic
+19 error command "/usr/bin/node" "/usr/bin/npm" "link" "/root/live4code/server/node_modules/express/"
+20 error cwd /var/tmp/repo/Live4Code/react-tutorial
+21 error node -v v0.10.33
+22 error npm -v 1.4.28
+23 error path /root/live4code/server/node_modules/express/
+24 error code ENOENT
+25 error errno 34
+26 verbose exit [ 34, true ]
